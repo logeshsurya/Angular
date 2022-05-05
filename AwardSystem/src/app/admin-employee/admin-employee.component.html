@@ -1,0 +1,144 @@
+<app-layout></app-layout>
+<app-admin-sidebar></app-admin-sidebar>
+<div class="container d-flex justify-content-center ">
+
+    <!-- Write your contents here -->
+
+
+            <div class="container container-fluid ">
+                <div>
+                    <div class="btn-group">
+                        <a href="AddEmployee.html" class="btn btn-primary"> <i class="fa-solid fa-user-plus"></i> Add Employee </a>
+                    </div>
+             
+                        <div class="btn-group search me-3">
+                            <div class="form-outline">
+                                <input type="search" id="form1" class="form-control1" placeholder="search" />
+                            </div>
+                            <button type="button" class="btn btn-primary search">
+                          <i class="fas fa-search" ></i>
+                        </button>
+                        </div>
+          
+
+                </div>
+                <br>
+
+
+                <table cellpadding="5" cellspacing="5" class="datatable table table-striped table-bordered">
+                    <thead>
+                        <tr class="text-center">
+                            <th>ACE ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Organization</th>
+                            <th>Designation</th>
+                            <th>Department</th>
+                            <th>Action</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-center">
+                            <td>ACE0123</td>
+                            <td>Sanjay Subramani</td>
+                            <td>sanjay@aspiresys.com</td>
+                            <td>Development</td>
+                            <td>Java</td>
+                            <td>Software Engineer</td>
+
+                            <td>
+                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+
+                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
+                                <div class="modal fade" id="Mymodal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title text-center">
+                                                    Warning!
+                                                </h4>                                                             
+                                            </div> 
+                                            <div class="modal-body">
+                                                This employee is the reporting person.You have to change the corresponding employee's reporting person.
+                                            </div>   
+                                            <div class="modal-footer">
+                                               <a href="Disable employee.html" class="btn btn-primary" target="_self">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </tr>
+                        <tr class="text-center">
+                            <td>ACE0579</td>
+                            <td>Hema Malini</td>
+                            <td>hema@aspiresys.com</td>
+                            <td>Testing</td>
+                            <td>Java</td>
+                            <td>Software Engineer</td>
+
+                            <td>
+                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+
+                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
+                           
+                        </tr>
+                        
+                        <tr class="text-center">
+                            <td>ACE0765</td>
+                            <td>Jos Butler</td>
+                            <td>Jos@aspiresys.com</td>
+                            <td>Support</td>
+                            <td>LAMP</td>
+                            <td>Senoir Software Engineer</td>
+
+                            <td>
+                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+
+                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
+                            
+
+                        </tr>
+                        
+                        <tr class="text-center">
+                            <td>ACE0386</td>
+                            <td>Pat Cummins</td>
+                            <td>pat@aspiresys.com</td>
+                            <td>Testing</td>
+                            <td>DotNet</td>
+                            <td>Project Manager</td>
+
+                            <td>
+                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+
+                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <section id="Paging">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="btn btn-primary" href="#">1</a></li>
+                            <li class="page-item"><a class="btn btn-primary" href="#">2</a></li>
+                            <li class="page-item"><a class="btn btn-primary" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
