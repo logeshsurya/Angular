@@ -8,7 +8,7 @@
             <div class="container container-fluid ">
                 <div>
                     <div class="btn-group">
-                        <a href="AddEmployee.html" class="btn btn-primary"> <i class="fa-solid fa-user-plus"></i> Add Employee </a>
+                        <a [routerLink]="['../admin-add-employeecomponent']" class="btn btn-primary"> <i class="fa-solid fa-user-plus"></i> Add Employee </a>
                     </div>
              
                         <div class="btn-group search me-3">
@@ -49,8 +49,8 @@
                             <td>Software Engineer</td>
 
                             <td>
-                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+                                <a [routerLink]="['../admin-edit-employee']"class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a [routerLink]="['../admin-view-employeecomponent']" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
 
                                 <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
                                 <div class="modal fade" id="Mymodal">
@@ -72,38 +72,8 @@
                             </div>
 
                         </tr>
-                        <tr class="text-center">
-                            <td>ACE0579</td>
-                            <td>Hema Malini</td>
-                            <td>hema@aspiresys.com</td>
-                            <td>Testing</td>
-                            <td>Java</td>
-                            <td>Software Engineer</td>
-
-                            <td>
-                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
-
-                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
-                           
-                        </tr>
                         
-                        <tr class="text-center">
-                            <td>ACE0765</td>
-                            <td>Jos Butler</td>
-                            <td>Jos@aspiresys.com</td>
-                            <td>Support</td>
-                            <td>LAMP</td>
-                            <td>Senoir Software Engineer</td>
-
-                            <td>
-                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
-
-                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
-                            
-
-                        </tr>
+                  
                         
                         <tr class="text-center">
                             <td>ACE0386</td>
@@ -114,8 +84,8 @@
                             <td>Project Manager</td>
 
                             <td>
-                                <a href="Edit Employee.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-                                <a href="Employee View.html" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
+                                <a [routerLink]="['../admin-edit-employee']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                                <a [routerLink]="['../admin-view-employeecomponent']" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
 
                                 <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
                         </tr>

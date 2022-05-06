@@ -10,7 +10,7 @@
     <div class="container container-fluid ">
         <div>
             <div class="btn-group">
-                <a href="AddDepartment.html" class="btn btn-primary"> <i class="fa-solid fa-layer-group"></i>+ Add Department </a>
+                <a [routerLink]="['admin-add-department']" class="btn btn-primary"> <i class="fa-solid fa-layer-group"></i>+ Add Department </a>
             </div>
 
             <div class="btn-group search me-3">
@@ -43,7 +43,7 @@
                     <td>Development</td>
                     <td>DotNet</td>
 
-                    <td> <a href="Edit Department.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                    <td> <a [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
 
                         <a href="#" class="btn btn-danger" target="_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
                     <div class="modal fade" id="Mymodal">
@@ -69,7 +69,7 @@
                     <td>Testing</td>
                     <td>Java</td>
 
-                    <td> <a href="Edit Department.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                    <td> <a [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
 
                         <a href="#" class="btn btn-danger" target="_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
                     
@@ -80,7 +80,7 @@
                     <td>Support</td>
                     <td>LAMP</td>
 
-                    <td> <a href="Edit Department.html" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
+                    <td> <a  [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
 
                         <a href="#" class="btn btn-danger" target="_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
                    
