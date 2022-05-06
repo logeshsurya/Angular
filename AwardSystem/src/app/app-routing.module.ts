@@ -22,6 +22,7 @@ import { AdminViewEmployeeComponent } from './admin-view-employee/admin-view-emp
 import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
 
 import { LayoutComponent } from './layout/layout.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   {path:'admin-sidebarcomponent' , component:AdminSidebarComponent},
@@ -44,6 +45,8 @@ const routes: Routes = [
   {path:'admin-add-designation' , component:AdminAddDesignationComponent},
   {path:'admin-add-organisation' , component:AdminAddOrganizationComponent},
   {path:'approver-sidebar' , component:ApproverSideBarComponent},
+  {path:'profile' , component:ProfileComponent},
+
 
 
   //{path:'' ,component: componentname}

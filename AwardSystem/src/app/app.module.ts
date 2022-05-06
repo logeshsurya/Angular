@@ -24,6 +24,7 @@ import { AdminAddDesignationComponent } from './admin-add-designation/admin-add-
 import { AdminAddOrganizationComponent } from './admin-add-organization/admin-add-organization.component';
 import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
 import { ApproverlistComponent } from './approverlist/approverlist.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -51,6 +52,7 @@ import { ApproverlistComponent } from './approverlist/approverlist.component';
     AdminAddOrganizationComponent,
     ApproverSideBarComponent,
     ApproverlistComponent,
+    ProfileComponent,
   
  
    
