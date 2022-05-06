@@ -22,9 +22,11 @@ import { AdminAddDepartmentComponent } from './admin-add-department/admin-add-de
 import { AdminEditDesignationComponent } from './admin-edit-designation/admin-edit-designation.component';
 import { AdminAddDesignationComponent } from './admin-add-designation/admin-add-designation.component';
 import { AdminAddOrganizationComponent } from './admin-add-organization/admin-add-organization.component';
-import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
-import { ApproverlistComponent } from './approverlist/approverlist.component';
-import { ProfileComponent } from './profile/profile.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { MoreCommentsComponent } from './more-comments/more-comments.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { CardPostComponent } from './card-post/card-post.component';
 
 
 
@@ -50,16 +52,18 @@ import { ProfileComponent } from './profile/profile.component';
     AdminEditDesignationComponent,
     AdminAddDesignationComponent,
     AdminAddOrganizationComponent,
-    ApproverSideBarComponent,
-    ApproverlistComponent,
-    ProfileComponent,
+    FooterComponent,
+    HomePageComponent,
+    MoreCommentsComponent,
+    CardPostComponent,
   
  
    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
