@@ -31,17 +31,16 @@
             <thead>
                 <tr class="text-center">
                     <th>Department ID</th>
-                    <th>Organisation Name</th>
                     <th>Department Name</th>
-
+                    <th>Organisation Name</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody>
-                <tr class="text-center">
-                    <td>1</td>
-                    <td>Development</td>
-                    <td>DotNet</td>
+                <tr class="text-center" *ngFor="let item of data">
+                    <td>{{item.id}}</td>
+                    <td>{{item.departmentName}}</td>
+                    <td>{{item.organisationId}}</td>
 
                     <td> <a [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
 
@@ -64,30 +63,6 @@
                         </div>
                     </div>
                 </tr>
-                <tr class="text-center">
-                    <td>2</td>
-                    <td>Testing</td>
-                    <td>Java</td>
-
-                    <td> <a [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-
-                        <a href="#" class="btn btn-danger" target="_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
-                    
-                </tr>
-
-                <tr class="text-center">
-                    <td>3</td>
-                    <td>Support</td>
-                    <td>LAMP</td>
-
-                    <td> <a  [routerLink]="['../admin-edit-department']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-
-                        <a href="#" class="btn btn-danger" target="_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
-                   
-
-                </tr>
-
-
             </tbody>
         </table>
 

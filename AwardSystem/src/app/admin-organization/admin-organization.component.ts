@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Organisation } from 'Models/Organisation';
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -8,10 +10,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminOrganizationComponent implements OnInit {
 
-  // constructor() { }
-  constructor() {}
-  
-  ngOnInit(): void {
+ 
+  @Input() orgsrc: string ="https://localhost:7275/api/Organisation/GetAll";
+   totalLength: any;
+   page: number = 1;
+   
+ 
+   constructor(private http: HttpClient) { }
+   ngOnInit(): void {
+     this.http
+       .get<any>(this.orgsrc)
+       .subscribe((data) => {
+         this.data = data;
+         this.totalLength = data.length;
+         console.log(data)
+        
+       });
+       
+   }
+ 
+   public data: Organisation[] = [];
   }
 
-}
+
+  

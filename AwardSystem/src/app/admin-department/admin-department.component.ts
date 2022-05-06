@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Department } from 'Models/Department';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-admin-department',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AdminDepartmentComponent implements OnInit {
 
-  constructor() { }
+  @Input() orgsrc: string ="https://localhost:7275/api/Department/GetAll";
+   totalLength: any;
+   page: number = 1;
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
+    this.http
+       .get<any>(this.orgsrc)
+       .subscribe((data) => {
+         this.data = data;
+         this.totalLength = data.length;
+         console.log(data)
+        
+       });
   }
+  public data: Department[] = [];
 
 }

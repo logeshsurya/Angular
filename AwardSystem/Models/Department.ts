@@ -1,6 +1,10 @@
+import { Organisation } from "./Organisation";
+
 export class Department
 {
-    Id : number = 0;
-    DepartmentName : string = '';
-    IsActive : boolean= true;
+    id : number = 0;
+    departmentName : string = '';
+    organisationId : number = 0;
+    organisation !: Organisation;
+    isActive : boolean = true;
 }

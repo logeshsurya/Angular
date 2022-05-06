@@ -60,7 +60,11 @@ const routes: Routes = [
 
 
   //{path:'' ,component: componentname}
+<<<<<<< Updated upstream
   {path:'' , component:AdminEditEmployeeComponent}
+=======
+  {path:'' , component:AdminOrganizationComponent}
+>>>>>>> Stashed changes
 ];
 
 

@@ -1,6 +1,6 @@
 export class Organisation
 {
-    Id : number = 0;
-    OrganisationName : string = '';
-    IsActive : boolean= true;
+    id : number = 0;
+    organisationName : string = '';
+    isActive : boolean= true;
 }
