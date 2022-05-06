@@ -19,6 +19,7 @@ import { AdminOrganizationComponent } from './admin-organization/admin-organizat
 import { AdminSidebarComponent } from './admin-sidebar/admin-sidebar.component';
 import { AdminViewAwardComponent } from './admin-view-award/admin-view-award.component';
 import { AdminViewEmployeeComponent } from './admin-view-employee/admin-view-employee.component';
+import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
 
 import { LayoutComponent } from './layout/layout.component';
 
@@ -42,10 +43,11 @@ const routes: Routes = [
   {path:'admin-edit-designation' , component:AdminEditDesignationComponent},
   {path:'admin-add-designation' , component:AdminAddDesignationComponent},
   {path:'admin-add-organisation' , component:AdminAddOrganizationComponent},
+  {path:'approver-sidebar' , component:ApproverSideBarComponent},
 
 
   //{path:'' ,component: componentname}
-  {path:'' , component:AdminOrganizationComponent}
+  {path:'' , component:ApproverSideBarComponent}
 ];
 
 

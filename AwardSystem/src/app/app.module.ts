@@ -22,6 +22,8 @@ import { AdminAddDepartmentComponent } from './admin-add-department/admin-add-de
 import { AdminEditDesignationComponent } from './admin-edit-designation/admin-edit-designation.component';
 import { AdminAddDesignationComponent } from './admin-add-designation/admin-add-designation.component';
 import { AdminAddOrganizationComponent } from './admin-add-organization/admin-add-organization.component';
+import { ApproverSideBarComponent } from './approver-side-bar/approver-side-bar.component';
+import { ApproverlistComponent } from './approverlist/approverlist.component';
 
 
 
@@ -47,6 +49,8 @@ import { AdminAddOrganizationComponent } from './admin-add-organization/admin-ad
     AdminEditDesignationComponent,
     AdminAddDesignationComponent,
     AdminAddOrganizationComponent,
+    ApproverSideBarComponent,
+    ApproverlistComponent,
   
  
    
