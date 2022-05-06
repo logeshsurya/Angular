@@ -1,15 +1,15 @@
 export class Employee
 {
-    ACEId : number = 0;
-    FirstName : string = '';
-    LastName : string = '';
-    Email : string = '';
-    DOB : string = '';
-    OrganisationId : number = 0;
-    DepartmentId : number = 0;
-    DesignationId : number = 0;
-    ReportingPersonId : number = 0;
-    HRID : number = 0;
-    Password : string = '';
-    IsActive : boolean= true;
+    aceId : number = 0;
+    firstName : string = '';
+    lastName : string = '';
+    email : string = '';
+    dob : string = '';
+    organisationId : number = 0;
+    departmentId : number = 0;
+    designationId : number = 0;
+    reportingPersonId : number = 0;
+    hrID : number = 0;
+    password : string = '';
+    isActive : boolean= true;
 }

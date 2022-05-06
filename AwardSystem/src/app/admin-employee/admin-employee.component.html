@@ -25,7 +25,7 @@
                 <br>
 
 
-                <table cellpadding="5" cellspacing="5" class="datatable table table-striped table-bordered">
+                <table cellpadding="5" cellspacing="5" class="table table-striped table-bordered">
                     <thead>
                         <tr class="text-center">
                             <th>ACE ID</th>
@@ -40,11 +40,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="text-center">
-                            <td>ACE0123</td>
-                            <td>Sanjay Subramani</td>
-                            <td>sanjay@aspiresys.com</td>
-                            <td>Development</td>
+                        <tr class="text-center" *ngFor="let item of data">
+                            <td>{{item.aceId}}</td>
+                            <td>{{item.firstName}}</td>
+                            <td>{{item.lastName}}</td>
+                            <td>{{item.email}}</td>
+                            <td>{{item.organisationId}}</td>
+                            <td>{{item.designationId}}</td>
+                            <td>{{item.departmentId}}</td>
                             <td>Java</td>
                             <td>Software Engineer</td>
 
@@ -74,21 +77,6 @@
                         </tr>
                         
                   
-                        
-                        <tr class="text-center">
-                            <td>ACE0386</td>
-                            <td>Pat Cummins</td>
-                            <td>pat@aspiresys.com</td>
-                            <td>Testing</td>
-                            <td>DotNet</td>
-                            <td>Project Manager</td>
-
-                            <td>
-                                <a [routerLink]="['../admin-edit-employee']" class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
-                                <a [routerLink]="['../admin-view-employeecomponent']" class="btn btn-success" target="_self"><i class="fa-solid fa-circle-info" title="Details"></i></a>
-
-                                <a href = "#"  class="btn btn-danger" target = "_self"><i class="fa-solid fa-user-slash" data-toggle="modal" data-target="#Mymodal"title="Disable"></i></a></td>
-                        </tr>
 
                     </tbody>
                 </table>
