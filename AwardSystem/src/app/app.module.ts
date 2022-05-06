@@ -65,11 +65,8 @@ import { CardPostComponent } from './card-post/card-post.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< Updated upstream
-    NgxPaginationModule
-=======
+    NgxPaginationModule,
     HttpClientModule
->>>>>>> Stashed changes
   ],
   providers: [],
   bootstrap: [AppComponent]

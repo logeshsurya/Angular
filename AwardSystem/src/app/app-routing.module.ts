@@ -59,12 +59,9 @@ const routes: Routes = [
   {path:'cardpost' , component:CardPostComponent},
 
 
-  //{path:'' ,component: componentname}
-<<<<<<< Updated upstream
-  {path:'' , component:AdminEditEmployeeComponent}
-=======
+
   {path:'' , component:AdminOrganizationComponent}
->>>>>>> Stashed changes
+
 ];
 
 
