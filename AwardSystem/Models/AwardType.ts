@@ -1,7 +1,7 @@
 export class AwardType
 {
-    Id : number = 0;
-    AwardName : string = '';
-    AwardDescription : string = '';
-    IsActive : boolean= true;
+    id : number = 0;
+    awardName : string = '';
+    awardDescription : string = '';
+    isActive : boolean= true;
 }

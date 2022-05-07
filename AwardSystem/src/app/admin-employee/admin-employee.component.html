@@ -29,11 +29,12 @@
                     <thead>
                         <tr class="text-center">
                             <th>ACE ID</th>
-                            <th>Name</th>
+                            <th>FirstName</th>
+                            <th>LastName</th>
                             <th>Email</th>
                             <th>Organization</th>
-                            <th>Designation</th>
                             <th>Department</th>
+                            <th>Designation</th>
                             <th>Action</th>
 
 
@@ -41,15 +42,15 @@
                     </thead>
                     <tbody>
                         <tr class="text-center" *ngFor="let item of data">
-                            <td>{{item.aceId}}</td>
+                            <td>{{item.aceid}}</td>
                             <td>{{item.firstName}}</td>
                             <td>{{item.lastName}}</td>
                             <td>{{item.email}}</td>
                             <td>{{item.organisationId}}</td>
-                            <td>{{item.designationId}}</td>
                             <td>{{item.departmentId}}</td>
-                            <td>Java</td>
-                            <td>Software Engineer</td>
+                            <td>{{item.designationId}}</td>
+                            
+                            
 
                             <td>
                                 <a [routerLink]="['../admin-edit-employee']"class="btn btn-primary" target="_self"><i class="fa-solid fa-pen-to-square" title="Edit"></i></a>
