@@ -1,4 +1,4 @@
-export class Award
+export class Awards
 {
     Id : number = 0;
     RequesterId : number = 0;

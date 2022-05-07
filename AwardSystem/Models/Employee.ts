@@ -1,6 +1,7 @@
 export class Employee
 {
-    aceId : number = 0;
+    id : number = 0;
+    aceid : string ='';
     firstName : string = '';
     lastName : string = '';
     email : string = '';
