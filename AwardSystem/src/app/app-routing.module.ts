@@ -27,14 +27,30 @@ import { LayoutComponent } from './layout/layout.component';
 import { LoginComponent } from './login/login.component';
 import { MoreCommentsComponent } from './more-comments/more-comments.component';
 
+import { RequesterComponent } from './requester/requester.component';
+import { RequesterAddRequestComponent } from './requester/requester-add-request/requester-add-request.component';
+import { RequesterMyawardsComponent } from './requester/requester-myawards/requester-myawards.component';
+import { RequesterRequestComponent } from './requester/requester-request/requester-request.component';
+import { RequesterSidebarComponent } from './requester/requester-sidebar/requester-sidebar.component';
+import { RequesterViewComponent } from './requester/requester-view/requester-view.component';
+import { HrComponent } from './hr/hr.component';
+import { HrAddRequestComponent } from './hr/hr-add-request/hr-add-request.component';
+import { HrPublishComponent } from './hr/hr-publish/hr-publish.component';
+import { HrRequestComponent } from './hr/hr-request/hr-request.component';
+import { HrRequestViewComponent } from './hr/hr-request-view/hr-request-view.component';
+import { HrSidebarComponent } from './hr/hr-sidebar/hr-sidebar.component';
+import { HrYettopublishComponent } from './hr/hr-yettopublish/hr-yettopublish.component';
+import { HrAwardComponent } from './hr/hr-award/hr-award.component';
+
+
 const routes: Routes = [
- 
+
   {path:'layoutcomponent' , component:LayoutComponent},
   {path:'admin-sidebar', component:AdminSidebarComponent},
   {path:'login', component:LoginComponent},
-  
 
- 
+
+
   {path:'awards', component:AwardsComponent},
   {path:'add-awards', component:AddAwardsComponent},
   {path:'edit-award', component:EditAwardComponent},
@@ -60,8 +76,8 @@ const routes: Routes = [
   {path:'approver-dashboard', component:ApproverDashboardComponent},
   {path:'approver-homepage', component:ApproverHomepageComponent},
   {path:'approver-myawards', component:ApproverMyawardsComponent},
-  
- 
+
+
 
 
 
@@ -72,10 +88,28 @@ const routes: Routes = [
   {path:'cardpost' , component:CardPostComponent},
 
 
-  {path:'', component:OrganisationComponent},
+
+  {path:'requester' , component:RequesterComponent},
+  {path:'requester-add-request' , component:RequesterAddRequestComponent},
+  {path:'requester-myawards' , component:RequesterMyawardsComponent},
+  {path:'requester-request' , component:RequesterRequestComponent},
+  {path:'requester-sidebar' , component:RequesterSidebarComponent},
+  {path:'requester-view' , component:RequesterViewComponent},
+
+  {path:'hr' , component:HrComponent},
+  {path:'hr-add-request' , component:HrAddRequestComponent},
+  {path:'hr-publish' , component:HrPublishComponent},
+  {path:'hr-request' , component:HrRequestComponent},
+  {path:'hr-request-view' , component:HrRequestViewComponent},
+  {path:'hr-sidebar' , component:HrSidebarComponent},
+  {path:'hr-yettopublish' , component:HrYettopublishComponent},
+  {path:'hr-award' , component:HrAwardComponent},
 
 
-  
+   {path:'', component:HrAddRequestComponent},
+
+
+
 
 ];
 

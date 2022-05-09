@@ -49,6 +49,21 @@ import { ApproverProfileComponent } from './approver/approver-profile/approver-p
 import { LoginComponent } from './login/login.component';
 
 
+import { RequesterComponent } from './requester/requester.component';
+import { RequesterSidebarComponent } from './requester/requester-sidebar/requester-sidebar.component';
+import { RequesterAddRequestComponent } from './requester/requester-add-request/requester-add-request.component';
+import { RequesterRequestComponent } from './requester/requester-request/requester-request.component';
+import { RequesterMyawardsComponent } from './requester/requester-myawards/requester-myawards.component';
+import { RequesterViewComponent } from './requester/requester-view/requester-view.component';
+import { HrComponent } from './hr/hr.component';
+import { HrAddRequestComponent } from './hr/hr-add-request/hr-add-request.component';
+import { HrSidebarComponent } from './hr/hr-sidebar/hr-sidebar.component';
+import { HrPublishComponent } from './hr/hr-publish/hr-publish.component';
+import { HrRequestComponent } from './hr/hr-request/hr-request.component';
+import { HrRequestViewComponent } from './hr/hr-request-view/hr-request-view.component';
+import { HrYettopublishComponent } from './hr/hr-yettopublish/hr-yettopublish.component';
+import { HrAwardComponent } from './hr/hr-award/hr-award.component';
+
 
 @NgModule({
   declarations: [
@@ -60,8 +75,8 @@ import { LoginComponent } from './login/login.component';
     CardPostComponent,
 
     LoginComponent,
-    
-    
+
+
     AdminComponent,
     AdminSidebarComponent,
 
@@ -69,22 +84,22 @@ import { LoginComponent } from './login/login.component';
     OrganisationComponent,
     AddOrganisationComponent,
     EditOrganisationComponent,
-  
-   
+
+
     DepartmentComponent,
     AddDepartmentComponent,
     EditDepartmentComponent,
-    
+
     DesignationComponent,
     AddDesignationComponent,
     EditDesignationComponent,
-   
+
     AwardsComponent,
     AddAwardsComponent,
     EditAwardComponent,
     ViewAwardComponent,
- 
-   
+
+
     EmployeeComponent,
     AddEmployeeComponent,
     EditEmployeeComponent,
@@ -98,9 +113,23 @@ import { LoginComponent } from './login/login.component';
     ApproverMyawardsComponent,
     ApproverProfileComponent,
 
-  
- 
-   
+
+ RequesterComponent,
+ RequesterSidebarComponent,
+ RequesterAddRequestComponent,
+ RequesterRequestComponent,
+ RequesterMyawardsComponent,
+ RequesterViewComponent,
+ HrComponent,
+ HrAddRequestComponent,
+ HrSidebarComponent,
+ HrPublishComponent,
+ HrRequestComponent,
+ HrRequestViewComponent,
+ HrYettopublishComponent,
+ HrAwardComponent,
+
+
   ],
   imports: [
     BrowserModule,
