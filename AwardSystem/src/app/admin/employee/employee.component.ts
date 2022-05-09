@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, Input, OnInit } from '@angular/core';
+import { Employee } from 'Models/Employee';
 
 @Component({
   selector: 'app-employee',
@@ -7,9 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeComponent implements OnInit {
 
-  constructor() { }
+  @Input() empsrc: string ="https://localhost:7275/api/Employee/GetAll";
+  totalLength: any;
+  page: number = 1;
 
-  ngOnInit(): void {
-  }
+  constructor(private http: HttpClient) { }
+
+  ngOnInit(): void {  
+      this.http
+        .get<any>(this.empsrc)
+        .subscribe((data) => {
+          this.data = data;
+          this.totalLength = data.length;
+          console.log(data)
+         
+        });
+      }
+        public data: Employee[] = [];
 
 }

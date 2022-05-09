@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, Input, OnInit } from '@angular/core';
+import { Designation } from 'Models/Designation';
 
 @Component({
   selector: 'app-designation',
@@ -7,9 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesignationComponent implements OnInit {
 
-  constructor() { }
+  @Input() desigsrc: string ="https://localhost:7275/api/Designation/GetAll";
+  totalLength: any;
+  page: number = 1;
+  
 
+  constructor(private http: HttpClient) { }
   ngOnInit(): void {
+    this.http
+      .get<any>(this.desigsrc)
+      .subscribe((data) => {
+        this.data = data;
+        this.totalLength = data.length;
+        console.log(data)
+       
+      });
+      
   }
+
+  public data: Designation[] = [];
 
 }

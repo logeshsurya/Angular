@@ -13,6 +13,8 @@ export class OrganisationComponent implements OnInit {
    totalLength: any;
    page: number = 1;
    
+  @Input() org:any;
+   
  
    constructor(private http: HttpClient) { }
    ngOnInit(): void {
@@ -22,9 +24,7 @@ export class OrganisationComponent implements OnInit {
          this.data = data;
          this.totalLength = data.length;
          console.log(data)
-        
        });
-       
    }
  
    public data: Organisation[] = [];
