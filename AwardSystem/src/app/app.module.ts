@@ -11,10 +11,7 @@ import { AdminEmployeeComponent } from './admin-employee/admin-employee.componen
 import { AdminAddEmployeeComponent } from './admin-add-employee/admin-add-employee.component';
 import { AdminEditEmployeeComponent } from './admin-edit-employee/admin-edit-employee.component';
 import { AdminViewEmployeeComponent } from './admin-view-employee/admin-view-employee.component';
-import { AdminDepartmentComponent } from './admin-department/admin-department.component';
-import { AdminEditDepartmentComponent } from './admin-edit-department/admin-edit-department.component';
 import { AdminDesignationComponent } from './admin-designation/admin-designation.component';
-import { AdminAddDepartmentComponent } from './admin-add-department/admin-add-department.component';
 import { AdminEditDesignationComponent } from './admin-edit-designation/admin-edit-designation.component';
 import { AdminAddDesignationComponent } from './admin-add-designation/admin-add-designation.component';
 import { FooterComponent } from './footer/footer.component';
@@ -66,10 +63,9 @@ import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.compo
   
  
     
-    AdminDepartmentComponent,
-    AdminEditDepartmentComponent,
+  
     AdminDesignationComponent,
-    AdminAddDepartmentComponent,
+   
     AdminEditDesignationComponent,
     AdminAddDesignationComponent,
    
