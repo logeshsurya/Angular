@@ -5,16 +5,12 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AdminSidebarComponent } from './admin-sidebar/admin-sidebar.component';
-import { AdminAwardComponent } from './admin-award/admin-award.component';
+
 import { LayoutComponent } from './layout/layout.component';
-import { AdminAddAwardComponent } from './admin-add-award/admin-add-award.component';
 import { AdminEmployeeComponent } from './admin-employee/admin-employee.component';
 import { AdminAddEmployeeComponent } from './admin-add-employee/admin-add-employee.component';
 import { AdminEditEmployeeComponent } from './admin-edit-employee/admin-edit-employee.component';
 import { AdminViewEmployeeComponent } from './admin-view-employee/admin-view-employee.component';
-import { AdminEditAwardComponent } from './admin-edit-award/admin-edit-award.component';
-import { AdminViewAwardComponent } from './admin-view-award/admin-view-award.component';
 import { AdminOrganizationComponent } from './admin-organization/admin-organization.component';
 import { AdminEditOrganizationComponent } from './admin-edit-organization/admin-edit-organization.component';
 import { AdminDepartmentComponent } from './admin-department/admin-department.component';
@@ -32,12 +28,31 @@ import { CardPostComponent } from './card-post/card-post.component';
 <<<<<<< Updated upstream
 import { AdminComponent } from './admin/admin.component';
 import { OrganisationComponent } from './admin/organisation/organisation.component';
-import { AddEditOrganisationComponent } from './admin/organisation/add-edit-organisation/add-edit-organisation.component';
-import { AddOrganistionComponent } from './admin/organisation/add-organistion/add-organistion.component';
 import { EditOrganisationComponent } from './admin/organisation/edit-organisation/edit-organisation.component';
 import { AddOrganisationComponent } from './admin/organisation/add-organisation/add-organisation.component';
+<<<<<<< Updated upstream
 =======
 import { LoginComponent } from './login/login.component';
+>>>>>>> Stashed changes
+=======
+import { DepartmentComponent } from './admin/department/department.component';
+import { AddDepartmentComponent } from './admin/department/add-department/add-department.component';
+import { EditDepartmentComponent } from './admin/department/edit-department/edit-department.component';
+import { DesignationComponent } from './admin/designation/designation.component';
+import { AddDesignationComponent } from './admin/designation/add-designation/add-designation.component';
+import { EditDesignationComponent } from './admin/designation/edit-designation/edit-designation.component';
+
+import { AwardsComponent } from './admin/awards/awards.component';
+import { AddAwardsComponent } from './admin/awards/add-awards/add-awards.component';
+import { EditAwardComponent } from './admin/awards/edit-award/edit-award.component';
+
+import { ViewAwardComponent } from './admin/awards/view-award/view-award.component';
+import { EmployeeComponent } from './admin/employee/employee.component';
+import { AddEmployeeComponent } from './admin/employee/add-employee/add-employee.component';
+import { EditEmployeeComponent } from './admin/employee/edit-employee/edit-employee.component';
+
+import { ViewEmployeeComponent } from './admin/employee/view-employee/view-employee.component';
+import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.component';
 >>>>>>> Stashed changes
 
 
@@ -46,15 +61,14 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     AdminSidebarComponent,
-    AdminAwardComponent,
     LayoutComponent,
-    AdminAddAwardComponent,
+    AwardsComponent,
+   
     AdminEmployeeComponent,
     AdminAddEmployeeComponent,
     AdminEditEmployeeComponent,
     AdminViewEmployeeComponent,
-    AdminEditAwardComponent,
-    AdminViewAwardComponent,
+  
     AdminOrganizationComponent,
     AdminEditOrganizationComponent,
     AdminDepartmentComponent,
@@ -71,12 +85,32 @@ import { LoginComponent } from './login/login.component';
 <<<<<<< Updated upstream
     AdminComponent,
     OrganisationComponent,
-    AddEditOrganisationComponent,
-    AddOrganistionComponent,
     EditOrganisationComponent,
     AddOrganisationComponent,
+<<<<<<< Updated upstream
 =======
     LoginComponent,
+>>>>>>> Stashed changes
+=======
+   
+    DepartmentComponent,
+    AddDepartmentComponent,
+    EditDepartmentComponent,
+    
+    DesignationComponent,
+    AddDesignationComponent,
+    EditDesignationComponent,
+   
+    AwardsComponent,
+    AddAwardsComponent,
+    EditAwardComponent,
+ 
+    ViewAwardComponent,
+    EmployeeComponent,
+    AddEmployeeComponent,
+    EditEmployeeComponent,
+    ViewEmployeeComponent,
+   
 >>>>>>> Stashed changes
   
  
