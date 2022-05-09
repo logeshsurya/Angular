@@ -60,8 +60,8 @@ const routes: Routes = [
 
 
 
-  {path:'' , component:AdminOrganizationComponent}
 
+  {path:'' , component:AdminOrganizationComponent}
 ];
 
 

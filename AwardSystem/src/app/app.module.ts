@@ -29,6 +29,12 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { MoreCommentsComponent } from './more-comments/more-comments.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CardPostComponent } from './card-post/card-post.component';
+import { AdminComponent } from './admin/admin.component';
+import { OrganisationComponent } from './admin/organisation/organisation.component';
+import { AddEditOrganisationComponent } from './admin/organisation/add-edit-organisation/add-edit-organisation.component';
+import { AddOrganistionComponent } from './admin/organisation/add-organistion/add-organistion.component';
+import { EditOrganisationComponent } from './admin/organisation/edit-organisation/edit-organisation.component';
+import { AddOrganisationComponent } from './admin/organisation/add-organisation/add-organisation.component';
 
 
 
@@ -58,6 +64,12 @@ import { CardPostComponent } from './card-post/card-post.component';
     HomePageComponent,
     MoreCommentsComponent,
     CardPostComponent,
+    AdminComponent,
+    OrganisationComponent,
+    AddEditOrganisationComponent,
+    AddOrganistionComponent,
+    EditOrganisationComponent,
+    AddOrganisationComponent,
   
  
    
