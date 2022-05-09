@@ -20,7 +20,7 @@ import { AdminSidebarComponent } from './admin-sidebar/admin-sidebar.component';
 import { AdminViewAwardComponent } from './admin-view-award/admin-view-award.component';
 import { AdminViewEmployeeComponent } from './admin-view-employee/admin-view-employee.component';
 import { CardPostComponent } from './card-post/card-post.component';
-
+import { LoginComponent } from './login/login.component';
 
 
 import { FooterComponent } from './footer/footer.component';
@@ -51,7 +51,7 @@ const routes: Routes = [
   {path:'admin-edit-designation' , component:AdminEditDesignationComponent},
   {path:'admin-add-designation' , component:AdminAddDesignationComponent},
   {path:'admin-add-organisation' , component:AdminAddOrganizationComponent},
-
+  {path:'login', componenet:LoginComponent},
 
   {path:'footer' , component:FooterComponent},
   {path:'homepage' , component:HomePageComponent},
@@ -60,6 +60,11 @@ const routes: Routes = [
 
 
 
+<<<<<<< Updated upstream
+=======
+  {path:'' , component:AdminOrganizationComponent}
+  // {path:'' , component:LoginComponent}
+>>>>>>> Stashed changes
 
   {path:'' , component:AdminOrganizationComponent}
 ];
