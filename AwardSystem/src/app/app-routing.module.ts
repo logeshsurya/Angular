@@ -53,9 +53,6 @@ const routes: Routes = [
   {path:'admin-edit-designation' , component:AdminEditDesignationComponent},
   {path:'admin-add-designation' , component:AdminAddDesignationComponent},
   {path:'admin-add-organisation' , component:AdminAddOrganizationComponent},
-<<<<<<< Updated upstream
-  {path:'login', componenet:LoginComponent},
-=======
   {path:'organisation', component:OrganisationComponent},
   {path:'add-award', component:AddAwardsComponent},
   {path:'awards', component:AwardsComponent},
@@ -72,7 +69,6 @@ const routes: Routes = [
 
  
 
->>>>>>> Stashed changes
 
   {path:'footer' , component:FooterComponent},
   {path:'homepage' , component:HomePageComponent},
@@ -80,19 +76,8 @@ const routes: Routes = [
   {path:'cardpost' , component:CardPostComponent},
 
 
-  {path:'', component:OrganisationComponent}
+  {path:'', component:OrganisationComponent},
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-  {path:'' , component:AdminOrganizationComponent}
-  // {path:'' , component:LoginComponent}
->>>>>>> Stashed changes
-
-  {path:'' , component:AdminOrganizationComponent}
-=======
-  
->>>>>>> Stashed changes
 ];
 
 

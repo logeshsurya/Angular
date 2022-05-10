@@ -25,16 +25,13 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { MoreCommentsComponent } from './more-comments/more-comments.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { CardPostComponent } from './card-post/card-post.component';
-<<<<<<< Updated upstream
+
 import { AdminComponent } from './admin/admin.component';
 import { OrganisationComponent } from './admin/organisation/organisation.component';
 import { EditOrganisationComponent } from './admin/organisation/edit-organisation/edit-organisation.component';
 import { AddOrganisationComponent } from './admin/organisation/add-organisation/add-organisation.component';
-<<<<<<< Updated upstream
-=======
 import { LoginComponent } from './login/login.component';
->>>>>>> Stashed changes
-=======
+
 import { DepartmentComponent } from './admin/department/department.component';
 import { AddDepartmentComponent } from './admin/department/add-department/add-department.component';
 import { EditDepartmentComponent } from './admin/department/edit-department/edit-department.component';
@@ -53,7 +50,7 @@ import { EditEmployeeComponent } from './admin/employee/edit-employee/edit-emplo
 
 import { ViewEmployeeComponent } from './admin/employee/view-employee/view-employee.component';
 import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.component';
->>>>>>> Stashed changes
+
 
 
 
@@ -82,16 +79,13 @@ import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.compo
     HomePageComponent,
     MoreCommentsComponent,
     CardPostComponent,
-<<<<<<< Updated upstream
+
     AdminComponent,
     OrganisationComponent,
     EditOrganisationComponent,
     AddOrganisationComponent,
-<<<<<<< Updated upstream
-=======
     LoginComponent,
->>>>>>> Stashed changes
-=======
+
    
     DepartmentComponent,
     AddDepartmentComponent,
@@ -110,10 +104,8 @@ import { AdminSidebarComponent } from './admin/admin-sidebar/admin-sidebar.compo
     AddEmployeeComponent,
     EditEmployeeComponent,
     ViewEmployeeComponent,
-   
->>>>>>> Stashed changes
   
- 
+
    
   ],
   imports: [
