@@ -41,6 +41,8 @@ import { HrRequestViewComponent } from './hr/hr-request-view/hr-request-view.com
 import { HrSidebarComponent } from './hr/hr-sidebar/hr-sidebar.component';
 import { HrYettopublishComponent } from './hr/hr-yettopublish/hr-yettopublish.component';
 import { HrAwardComponent } from './hr/hr-award/hr-award.component';
+import { RequesterHomepageComponent } from './requester/requester-homepage/requester-homepage.component';
+import { HrHomepageComponent } from './hr/hr-homepage/hr-homepage.component';
 
 
 const routes: Routes = [
@@ -98,6 +100,7 @@ const routes: Routes = [
   {path:'requester-request' , component:RequesterRequestComponent},
   {path:'requester-sidebar' , component:RequesterSidebarComponent},
   {path:'requester-view' , component:RequesterViewComponent},
+  {path:'requester-homepage' , component:RequesterHomepageComponent},
 
   {path:'hr' , component:HrComponent},
   {path:'hr-add-request' , component:HrAddRequestComponent},
@@ -107,6 +110,7 @@ const routes: Routes = [
   {path:'hr-sidebar' , component:HrSidebarComponent},
   {path:'hr-yettopublish' , component:HrYettopublishComponent},
   {path:'hr-award' , component:HrAwardComponent},
+  {path:'hr-homepage' , component:HrHomepageComponent},
 
 
    {path:'', component:ApproverHomepageComponent},

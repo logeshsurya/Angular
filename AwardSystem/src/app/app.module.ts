@@ -63,6 +63,8 @@ import { HrRequestComponent } from './hr/hr-request/hr-request.component';
 import { HrRequestViewComponent } from './hr/hr-request-view/hr-request-view.component';
 import { HrYettopublishComponent } from './hr/hr-yettopublish/hr-yettopublish.component';
 import { HrAwardComponent } from './hr/hr-award/hr-award.component';
+import { RequesterHomepageComponent } from './requester/requester-homepage/requester-homepage.component';
+import { HrHomepageComponent } from './hr/hr-homepage/hr-homepage.component';
 
 
 @NgModule({
@@ -129,6 +131,8 @@ import { HrAwardComponent } from './hr/hr-award/hr-award.component';
  HrRequestViewComponent,
  HrYettopublishComponent,
  HrAwardComponent,
+ RequesterHomepageComponent,
+ HrHomepageComponent,
 
 
 
