@@ -113,7 +113,7 @@ const routes: Routes = [
   {path:'hr-homepage' , component:HrHomepageComponent},
 
 
-   {path:'', component:ApproverHomepageComponent},
+   {path:'', component:ApproverComponent},
 
 
 

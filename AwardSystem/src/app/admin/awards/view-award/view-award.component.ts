@@ -10,6 +10,9 @@ export class ViewAwardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+
+    
   }
 
 }
