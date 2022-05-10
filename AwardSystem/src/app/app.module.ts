@@ -114,6 +114,7 @@ import { HrAwardComponent } from './hr/hr-award/hr-award.component';
     ApproverProfileComponent,
 
 
+
  RequesterComponent,
  RequesterSidebarComponent,
  RequesterAddRequestComponent,
@@ -128,6 +129,7 @@ import { HrAwardComponent } from './hr/hr-award/hr-award.component';
  HrRequestViewComponent,
  HrYettopublishComponent,
  HrAwardComponent,
+
 
 
   ],

@@ -45,7 +45,7 @@ import { HrAwardComponent } from './hr/hr-award/hr-award.component';
 
 const routes: Routes = [
 
-  {path:'layoutcomponent' , component:LayoutComponent},
+  {path:'layout' , component:LayoutComponent},
   {path:'admin-sidebar', component:AdminSidebarComponent},
   {path:'login', component:LoginComponent},
 
@@ -76,6 +76,9 @@ const routes: Routes = [
   {path:'approver-dashboard', component:ApproverDashboardComponent},
   {path:'approver-homepage', component:ApproverHomepageComponent},
   {path:'approver-myawards', component:ApproverMyawardsComponent},
+  {path:'approver-homepage', component:ApproverHomepageComponent},
+
+  
 
 
 
@@ -106,7 +109,7 @@ const routes: Routes = [
   {path:'hr-award' , component:HrAwardComponent},
 
 
-   {path:'', component:HrAddRequestComponent},
+   {path:'', component:ApproverHomepageComponent},
 
 
 
