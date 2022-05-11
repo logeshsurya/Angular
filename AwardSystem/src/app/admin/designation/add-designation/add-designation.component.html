@@ -1,38 +1,43 @@
 <app-layout></app-layout>
 <app-admin-sidebar></app-admin-sidebar>
-<div class="container d-flex justify-content-center table-box">
+ <div class="container d-flex justify-content-center table-box" >
 
-    <form class="border-box position-relative">
+
+    <form class="border-box position-relative" #addDesignationForm="ngForm" (ngsubmit)="addDesignation()">
 
         <span class="border-box-tip"><b>Add Designation</b></span>
 
         <div class="row g-3 align-items-center justify-content-center mb-3">
             
-                <div class="col-auto p-1.5">
-                    <label for="org" class="col-form-label">Department</label>
-
-                    <div class="input-group">
-                        <select class="custom-select" id="inputGroupSelect04">
-                                  <option selected>Choose...</option>
-                                  <option value="1">DotNet</option>
-                                  <option value="2">Java</option>
-                                  <option value="3">LAMP</option>
-                                </select>
-                    </div>
-                </div>
             <div class="col-auto p-1.5">
                 <label for="firstName" class="col-form-label">Designation Name</label>
-                <input type="text" id="firstName" class="form-control" aria-describedby="firstNameHelpInline">
+                <input type="text" id="firstName" class="form-control" aria-describedby="firstNameHelpInline" [(ngModel)]="Designation.DesignationName" name="DesignationName">
 
             </div>
         </div>
        
 
         <div class="row justify-content-center align-items-center mt-5 button-group">
-            <a [routerLink]="['../designation']" class="btn btn-primary col-lg-2">Add</a>
+            <button  [routerLink]="['../designation']" type="submit"  class="btn btn-primary col-lg-2" >Add</button>
             <a  [routerLink]="['../designation']" class="btn btn-primary col-lg-2">Cancel</a>
         </div>
     </form>
-</div>
+
+
+    <!-- <form #addDesignationForm="ngForm" (submit)="addDesignation(addDesignationForm)">
+    <input type="text" [(ngModel)]="designationname" name="designationname">
+    <br>
+    <input type="checkbox" [(ngModel)]="terms" name="terms">
+    <br>
+    <select [(ngModel)]="dropdown" name="dropdown">
+        <option value="1"> ldfdhd</option>
+        <option value="2"> fhfjsf</option>
+
+    </select>
+    <button type="submit" > Add Designation </button>
+</form> -->
+<!-- <div> {{ designationname}}</div> -->
+</div> 
+
 
 

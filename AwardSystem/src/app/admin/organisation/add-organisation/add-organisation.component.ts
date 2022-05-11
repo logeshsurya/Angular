@@ -15,7 +15,14 @@ export class AddOrganisationComponent  implements OnInit{
   }
   
     ngOnInit(): void{
-       this.admin  = this.adminService.getadmin();
+       this.adminService.getadmin().subscribe(data=>{
+        
+         this.admin =data;
+       },(err)=> {
+         console.log("unable to get data",err);
+       }
+       
+       )
     }
 
   }
