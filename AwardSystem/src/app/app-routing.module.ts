@@ -65,7 +65,7 @@ const routes: Routes = [
 
   {path:'designation', component:DesignationComponent},
   {path:'add-designation', component:AddDesignationComponent},
-  {path:'edit-designation', component:EditDesignationComponent},
+  {path:'edit-designation/:id', component:EditDesignationComponent},
 
 
   {path:'organisation', component:OrganisationComponent},
@@ -113,7 +113,7 @@ const routes: Routes = [
   {path:'hr-homepage' , component:HrHomepageComponent},
 
 
-   {path:'', component:AddDesignationComponent},
+   {path:'', component:DesignationComponent},
 
 
 

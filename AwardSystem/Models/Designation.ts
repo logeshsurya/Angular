@@ -7,4 +7,5 @@ export class Designation
     departmentId : number = 0;
     department !: Department;
     isActive : boolean= true;
+  static URL: any;
 }

@@ -13,8 +13,14 @@ interface admin{
   providedIn: 'root'
 })
 export class AdminService {
+  httpClient: any;
+ 
 
   constructor(private http:HttpClient) { }
+
+
+  
+
 
 
 
@@ -45,4 +51,15 @@ getadmin():Observable<admin>{
 // }
 
 }
+
+getOneEmployee(id: string)
+{
+  return this.httpClient.get('https://localhost:7275/api/Designation/GetById/'+id);
 }
+
+
+
+}
+
+
+

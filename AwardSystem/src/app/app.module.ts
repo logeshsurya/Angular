@@ -66,6 +66,7 @@ import { HrYettopublishComponent } from './hr/hr-yettopublish/hr-yettopublish.co
 import { HrAwardComponent } from './hr/hr-award/hr-award.component';
 import { RequesterHomepageComponent } from './requester/requester-homepage/requester-homepage.component';
 import { HrHomepageComponent } from './hr/hr-homepage/hr-homepage.component';
+import { DisableDesignationComponent } from './admin/designation/disable-designation/disable-designation.component';
 
 
 @NgModule({
@@ -134,6 +135,7 @@ import { HrHomepageComponent } from './hr/hr-homepage/hr-homepage.component';
  HrAwardComponent,
  RequesterHomepageComponent,
  HrHomepageComponent,
+ DisableDesignationComponent,
 
 
 
